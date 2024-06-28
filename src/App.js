@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Slider } from '@/components/ui/slider';
+import { Button } from "./components/ui/button"
+import { Card, CardContent, CardHeader, CardTitle } from "./components/ui/card"
+import { Slider } from "./components/ui/slider"
 import { Baby, Redo2 } from 'lucide-react';
 
 const InheritanceSimulator = () => {
@@ -25,10 +25,6 @@ const InheritanceSimulator = () => {
     setAffectedChildren(0);
   };
 
-  const handleProbabilityChange = (newValue) => {
-    setProbability(newValue[0]);
-  };
-
   return (
     <div className="p-4 max-w-4xl mx-auto">
       <Card className="mb-4">
@@ -40,7 +36,7 @@ const InheritanceSimulator = () => {
             <p className="text-center mb-4 text-xl md:text-2xl">Chance of baby needing extra love:</p>
             <Slider
               value={[probability]}
-              onValueChange={handleProbabilityChange}
+              onValueChange={(value) => setProbability(value[0])}
               max={100}
               step={1}
               className="mb-4"

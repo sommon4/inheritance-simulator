@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/inheritance-simulator/static/css/main.d5856066.css",
+    "main.js": "/inheritance-simulator/static/js/main.52d90f64.js",
+    "static/js/453.e38afffc.chunk.js": "/inheritance-simulator/static/js/453.e38afffc.chunk.js",
+    "index.html": "/inheritance-simulator/index.html",
+    "main.d5856066.css.map": "/inheritance-simulator/static/css/main.d5856066.css.map",
+    "main.52d90f64.js.map": "/inheritance-simulator/static/js/main.52d90f64.js.map",
+    "453.e38afffc.chunk.js.map": "/inheritance-simulator/static/js/453.e38afffc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d5856066.css",
+    "static/js/main.52d90f64.js"
+  ]
+}
